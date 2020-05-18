@@ -98,7 +98,7 @@ Kubelet 用 hostname 值来填充该标签。注意：可以通过向 `kubelet` 
 <!--
 Starting in v1.17, this label is deprecated in favor of [node.kubernetes.io/instance-type](#nodekubernetesioinstance-type).
 -->
-从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用[node.kubernetes.io/instance-type](#nodekubernetesioinstance-type)。
+从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用 [node.kubernetes.io/instance-type](#nodekubernetesioinstance-type)。
 {{< /note >}}
 
 ## node.kubernetes.io/instance-type {#nodekubernetesioinstance-type}
@@ -131,7 +131,7 @@ See [failure-domain.beta.kubernetes.io/zone](#failure-domainbetakubernetesiozone
 <!--
 Starting in v1.17, this label is deprecated in favor of [topology.kubernetes.io/region](#topologykubernetesioregion).
 -->
-从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用[topology.kubernetes.io/region](#topologykubernetesioregion)。
+从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用 [topology.kubernetes.io/region](#topologykubernetesioregion)。
 {{< /note >}}
 
 ## failure-domain.beta.kubernetes.io/zone (已弃用) {#failure-domainbetakubernetesiozone}
@@ -200,7 +200,7 @@ adding the labels manually (or adding support for `PersistentVolumeLabel`). With
 <!--
 Starting in v1.17, this label is deprecated in favor of [topology.kubernetes.io/zone](#topologykubernetesiozone).
 -->
-从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用[topology.kubernetes.io/zone](#topologykubernetesiozone)。
+从 kubernetes 1.17 版本开始，不推荐使用此标签，而推荐使用 [topology.kubernetes.io/zone](#topologykubernetesiozone)。
 {{< /note >}}
 
 ## topology.kubernetes.io/region {#topologykubernetesioregion}
